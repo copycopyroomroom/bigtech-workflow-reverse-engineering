@@ -1,0 +1,24 @@
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+
+# Generated data and caches
+data/raw/
+cache/
+tmp/
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Node
+node_modules/
+
+# Editors and OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
