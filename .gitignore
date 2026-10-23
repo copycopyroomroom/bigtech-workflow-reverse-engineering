@@ -5,6 +5,9 @@
 
 # Generated data and caches
 data/raw/
+datasets/raw/
+proposals/
+private/
 cache/
 tmp/
 *.log

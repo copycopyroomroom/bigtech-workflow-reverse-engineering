@@ -100,7 +100,16 @@ Atlas는 [기여 안내](https://github.com/Netflix/atlas/blob/main/CONTRIBUTING
 | github_owner, governance, governance_as_of | GitHub 조직, 공개 운영 구조, 해당 시점과 출처 |
 | public_review_system | GitHub, Gerrit, 포럼 등 실제 공개 기록 위치 |
 | evidence_visibility | PR·리뷰·CI·릴리스별 관찰 가능·부분 가능·불가 |
+| pattern_candidates | 실행 단위 관행 후보 ID와 출처. 문서 규정·실제 관찰·AI 가설을 구분 |
+| context, prerequisites | 기여 방식·역할·제품 제약·도구·필수 선행 조건 |
+| counterevidence, portability_limits | 반례·공개되지 않은 과정·다른 팀에 옮길 때의 한계 |
 | period, population_count, bot_share | 분석 기간과 측정한 전체 건수·자동화 비중 |
 | priority, decision, reason | 후보 우선순위, 채택·보류·제외 및 이유 |
 
 모든 후보의 저장소 URL은 위 각 행에 연결했다. 공식 소개에서 확인한 제품 설명과 연구자가 제안한 분석 질문을 구분하며, 수집 후 측정할 값은 미리 채우지 않는다.
+
+## 관행 조합에 사용하는 방식
+
+후보 저장소는 회사별 순위나 ‘장점 점수’를 매기기 위한 목록이 아니다. [AI 설계 기능](product/WORKFLOW_COMPOSER.md)은 이 목록에서 출처를 찾고, 실제 근거를 확인한 리뷰·설계·검증·릴리스 등의 모듈을 검색한다. 사용자에게 회사·분야 필터를 제공하되, 채택은 대상 팀의 문제·필수 조건·역할·부담에 따라 결정한다.
+
+위 각 표의 분석 질문은 아직 검증한 모듈이 아니다. 프로젝트별 관행 카드에는 관찰 기간·문서 버전·반례·적용 전제를 연결하고, 다른 프로젝트 모듈과 결합한 새 연결은 별도 설계 가설로 표시한다. 오래된 근거는 현재 정책 여부를 재확인하며 기존 버전은 보존한다.
